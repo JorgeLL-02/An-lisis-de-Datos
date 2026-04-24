@@ -94,7 +94,7 @@ X_pca = pca_final.fit_transform(X_escaled)
 
 ## Se usarán 3 modelos diferentes para comparar su rendimiento con los datos escalados sin PCA y con PCA:
 ## 1. LDA (Análisis Discriminante Lineal)
-## 2. Bosque Aleatorio (Random Forest): Supuestamente es muy potente contra el sobreajuste (se prueba para ver el resultado que se obtiene y compararlo).
+## 2. Bosque Aleatorio (Random Forest): NO ES PROBABILISTICO, PERO: se quiso probar ya que supuestamente es muy potente contra el sobreajuste y así poder compararlo con los otros dos probabilisticos.
 ## 3. Naive Bayes
 
 ## Modelo 1: Análisis Discriminante Lineal (LDA)
